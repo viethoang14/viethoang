@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="player">
+        <!-- Dashboard -->
+        <div class="dashboard">
+            <!-- Header -->
+            <header>
+                <h4>Bài hát đang phát:</h4>
+                <h2></h2>
+                </header>
+
+            <!-- CD -->
+            <div class="cd">
+                <div class="cd-thumb" style="background-image: url('https://scontent.fhan14-3.fna.fbcdn.net/v/t39.30808-6/304783365_2029165657294335_3196519712711655149_n.jpg?stp=cp1_dst-jpg_p526x296_q79&_nc_cat=104&ccb=1-7&_nc_sid=5cd70e&_nc_ohc=u_IcqGPt1pUAX8wygPA&_nc_ht=scontent.fhan14-3.fna&oh=00_AT8k4pZR2JmIWrpjn5WTishxH5f7y_19XaTBAsjdOfpeYQ&oe=631E29DD')">
+                </div>
+            </div>
+  
+            <!-- Control -->
+            <div class="control">
+                <div class="btn btn-repeat">
+                    <i class="fas fa-redo"></i>
+                </div>
+                <div class="btn btn-volume-down">
+                    <i class="fas fa-volume-down"></i>
+                </div>
+                <div class="btn btn-prev">
+                    <i class="fas fa-step-backward"></i>
+                </div>
+                <div class="btn btn-toggle-play">
+                    <i class="fas fa-pause icon-pause"></i>
+                    <i class="fas fa-play icon-play"></i>
+                </div>
+                <div class="btn btn-next">
+                    <i class="fas fa-step-forward"></i>
+                </div>
+                <div class="btn btn-volume-up">
+                    <i class="fas fa-volume-up"></i>
+                </div>
+                <div class="btn btn-random">
+                    <i class="fas fa-random"></i>
+                </div>
+            </div>
+            
+            <input id="progress" class="progress" type="range" value="0" step="1" min="0" max="100">
+
+            <audio id="audio" src="" ></audio>
+
+            <!-- Volumn -->
+            <div class="volume-range">
+                <input type="range" class="volume-control" value="0.5" step="0.1" min="0" max="1">
+              </div>
+        </div>
+
+        <!-- Playlist -->
+        <div class="playlist"></div>
+            
+        <div class="made">
+            <span>ĐỖ VIỆT HOÀNG</span>
+        </div>
+    </div>
+    <script src="app1.js"></script>
+</body>
+</html>
