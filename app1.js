@@ -34,56 +34,56 @@ const app = {
   songs: [
     {
       name: "Phải Chẳng Em Đã Yêu",
-      singer: ["Việt Hoàng"],
+      singer: ["BÙI THỊ PHƯƠNG THẢO"],
       path: "./music/PhaiChangEmDaYeu-JukySanRedT-6940932.mp3",
       image:
         "https://scontent.fhan3-3.fna.fbcdn.net/v/t1.15752-9/301626946_1527584650990654_6384063224920018234_n.jpg?stp=dst-jpg_p1080x2048&_nc_cat=108&ccb=1-7&_nc_sid=ae9488&_nc_ohc=cqXdgtSHFwAAX-6_sTb&_nc_ht=scontent.fhan3-3.fna&oh=03_AVJ5hioToThBtHZ6ERMXQ5GRo9bjx2qgEa0FtWcOPIQwxg&oe=63388B4D",
     },
     {
       name: "Trên Tình Bạn Dươi Tình Yêu",
-      singer: ["Việt Hoàng"],
+      singer: ["BÙI THỊ PHƯƠNG THẢO"],
       path: "./music/TrenTinhBanDuoiTinhYeu-MIN-6802163.mp3",
       image:
         "https://scontent.fhph1-1.fna.fbcdn.net/v/t1.15752-9/301070237_1066334854269689_8315997769231671416_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=ae9488&_nc_ohc=Izi9ZxdAXlkAX-cpi6k&_nc_ht=scontent.fhph1-1.fna&oh=03_AVInyn-tdgO-PyltaPwGZLx3dKXcYp36iGe0ZhRGg73Izw&oe=6339EF17",
     },
     {
       name: "Tình Bạn Diệu Kỳ",
-      singer: ["Việt Hoàng"],
+      singer: ["BÙI THỊ PHƯƠNG THẢO"],
       path: "./music/TinhBanDieuKy-AMeeRickyStarLangLD-6927558.mp3",
       image:
         "https://scontent.fhph1-3.fna.fbcdn.net/v/t1.15752-9/300819430_747372289692582_5996322599485612626_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=ae9488&_nc_ohc=TmaplgNmjvQAX9LUulC&_nc_ht=scontent.fhph1-3.fna&oh=03_AVL5wdPuE4kB5I6fjyYtSZlnWxAq-msya5_MLhNdOUVqyQ&oe=633AEC61",
     },
     {
-      name: "PHÍA SAU EM",
-      singer: ["Việt Hoàng"],
+      name: "Phía Sau Em",
+      singer: ["BÙI THỊ PHƯƠNG THẢO"],
       path: "./music/Phia-Sau-Em-Kay-Tran-Binz.mp3",
       image:
         "https://scontent.fhph1-3.fna.fbcdn.net/v/t1.15752-9/300819430_747372289692582_5996322599485612626_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=ae9488&_nc_ohc=TmaplgNmjvQAX9LUulC&_nc_ht=scontent.fhph1-3.fna&oh=03_AVL5wdPuE4kB5I6fjyYtSZlnWxAq-msya5_MLhNdOUVqyQ&oe=633AEC61",
     },
     {
       name: "Dằm Trong Tim",
-      singer: ["Việt Hoàng"],
+      singer: ["BÙI THỊ PHƯƠNG THẢO"],
       path: "./music/y2meta.com - dằm trong tim - SUNI HẠ LINH & TDK _ ‘Hương Mùa Hè’ show (tập 3) (128 kbps).mp3",
       image:
         "https://scontent.fhph1-3.fna.fbcdn.net/v/t1.15752-9/300819430_747372289692582_5996322599485612626_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=ae9488&_nc_ohc=TmaplgNmjvQAX9LUulC&_nc_ht=scontent.fhph1-3.fna&oh=03_AVL5wdPuE4kB5I6fjyYtSZlnWxAq-msya5_MLhNdOUVqyQ&oe=633AEC61",
     },
     {
       name: "Hạ Còn Vương Nắng",
-      singer: ["Việt Hoàng"],
+      singer: ["BÙI THỊ PHƯƠNG THẢO"],
       path: "./music/y2meta.com - HẠ CÒN VƯƠNG NẮNG _ DATKAA x KIDO x Prod. QT BEATZ [OFFICIAL MUSIC VIDEO] (128 kbps).mp3",
       image:
         "https://scontent.fhph1-3.fna.fbcdn.net/v/t1.15752-9/300819430_747372289692582_5996322599485612626_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=ae9488&_nc_ohc=TmaplgNmjvQAX9LUulC&_nc_ht=scontent.fhph1-3.fna&oh=03_AVL5wdPuE4kB5I6fjyYtSZlnWxAq-msya5_MLhNdOUVqyQ&oe=633AEC61",
     },
     {
       name: "Người Lạ Từng Thương",
-      singer: ["Việt Hoàng"],
+      singer: ["BÙI THỊ PHƯƠNG THẢO"],
       path: "./music/y2meta.com - NGƯỜI LẠ TỪNG THƯƠNG - NHƯ VIỆT _ OFFICIAL MUSIC VIDEO (128 kbps).mp3",
       image:
         "https://scontent.fhph1-3.fna.fbcdn.net/v/t1.15752-9/300819430_747372289692582_5996322599485612626_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=ae9488&_nc_ohc=TmaplgNmjvQAX9LUulC&_nc_ht=scontent.fhph1-3.fna&oh=03_AVL5wdPuE4kB5I6fjyYtSZlnWxAq-msya5_MLhNdOUVqyQ&oe=633AEC61",
     },
     {
       name: "Yêu Nhau Nhé Bạn Thân",
-      singer: ["Việt Hoàng"],
+      singer: ["BÙI THỊ PHƯƠNG THẢO"],
       path: "./music/y2meta.com - Yêu Nhau Nhé Bạn Thân _ Phạm Đình Thái Ngân _ Lyrics (128 kbps).mp3",
       image:
         "https://scontent.fhph1-3.fna.fbcdn.net/v/t1.15752-9/300819430_747372289692582_5996322599485612626_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=ae9488&_nc_ohc=TmaplgNmjvQAX9LUulC&_nc_ht=scontent.fhph1-3.fna&oh=03_AVL5wdPuE4kB5I6fjyYtSZlnWxAq-msya5_MLhNdOUVqyQ&oe=633AEC61",
