@@ -75,7 +75,7 @@ const app = {
         "https://scontent.fhph1-3.fna.fbcdn.net/v/t1.15752-9/300819430_747372289692582_5996322599485612626_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=ae9488&_nc_ohc=TmaplgNmjvQAX9LUulC&_nc_ht=scontent.fhph1-3.fna&oh=03_AVL5wdPuE4kB5I6fjyYtSZlnWxAq-msya5_MLhNdOUVqyQ&oe=633AEC61",
     },
     {
-      name: "Người lạ từng thương",
+      name: "Người Lạ Từng Thương",
       singer: ["Việt Hoàng"],
       path: "./music/y2meta.com - NGƯỜI LẠ TỪNG THƯƠNG - NHƯ VIỆT _ OFFICIAL MUSIC VIDEO (128 kbps).mp3",
       image:
@@ -230,7 +230,7 @@ const app = {
 
     volDownBtn.onclick=function(){
       if(audio.volume<0.1){
-        alert('Đã tắt tiếng')
+        alert('Bạn nghe nhạc không cần tiếng à !!! :v ')
       }
       else {
         audio.volume -= 0.1;
@@ -238,7 +238,7 @@ const app = {
     }
     volUpBtn.onclick=function(){
       if(audio.volume===1){
-        alert('Âm lượng đạt MAX')
+        alert('Âm Lượng to quá rồi bạn ơi !!! :v')
       }
       else {
         audio.volume += 0.1;
